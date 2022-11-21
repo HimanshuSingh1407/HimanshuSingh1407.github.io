@@ -1,0 +1,93 @@
+.projectContainer {
+  width: 90%;
+  margin: 0.5rem auto;
+  text-align: center;
+
+  background-color: transparent;
+  padding: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  /* border: 1px solid red ; */
+}
+.projectCard {
+  min-width: 300px;
+  /* border: 1px solid red ; */
+  max-width: 550px;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 0.5rem;
+}
+.projectCard img {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.projectCard > div {
+  margin: 0.25rem 0.5rem;
+  display: flex;
+
+  text-transform: capitalize;
+
+  font-weight: 400;
+
+  /* border: 2px solid red ; */
+  flex-wrap: wrap;
+}
+.projectCard div .hashTag {
+  /* border: 2px solid yellow ; */
+
+  background-color: #153462;
+  padding: 0.25rem;
+  margin: 0.25rem;
+  font-size: medium;
+
+  border-radius: 0.25rem;
+  color: white;
+  font-family: cursive;
+}
+.projectCard h2 {
+  color: #153462;
+  padding: 0.25rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  font-size: 150%;
+  border: 2px solid transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projectCard h2:hover {
+  border: 2px solid #153462;
+  width: max-content;
+}
+.projectCard p {
+  padding: 0.25rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+
+  font-family: monospace;
+  margin-bottom: 0.75rem;
+}
+.projectCard div:last-child a {
+  padding: 0.25rem;
+  text-decoration: none;
+  color: white;
+
+  background-color: #153462;
+  border-radius: 4px;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+  border: 2px solid #153462;
+}
+
+@media all and (max-width: 800px) {
+  .projectContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projectCard {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,122 @@
+.contactContainer {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: center;
+  background-color: transparent;
+  height: 90vh;
+
+}
+
+.contactContainer .contactLeft {
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0.5rem;
+  height: 100%;
+  min-width: 350px;
+}
+
+.contactContainer .contactRight {
+  width: 50%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem 0.5rem;
+  height: 100%;
+  min-width: 350px;
+  font-family: monospace;
+}
+
+.contactLeft div {
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.25rem;
+  color: #153462;
+}
+.contactLeft div span a {
+  text-decoration: none;
+  color: #153462;
+}
+.contactLeft div:last-child span {
+  margin: 0.5rem 0.75rem;
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contactLeft div:last-child span a {
+  font-size: 150%;
+}
+.contactLeft div:last-child span a:hover {
+  color: #b9005b;
+  font-size: 90%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contactRight .contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contactRight h2 {
+  font-family: monospace;
+  color: #153462;
+}
+.contactRight .contactForm span {
+  margin: 0.5rem;
+  width: 90%;
+  display: flex;
+}
+.contactRight .contactForm span input,
+textarea {
+  outline: none;
+  border: none;
+}
+.contactRight .contactForm  .submitBtn
+ {
+
+  padding: 0.25rem 0.75rem;
+  color: #153462;
+  font-weight: 600;
+  font-family: cursive;
+  border: 2px solid #153462;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.contactRight .contactForm .submitBtn:hover{
+
+  border: 2px solid #fff;
+}
+
+
+@media all and (max-width: 800px) {
+  .contactContainer {
+    flex-direction: column;
+    font-size: small;
+    padding: 1rem;height: 120vh;
+  }
+
+  .contactContainer .contactLeft,
+  .contactContainer .contactRight {
+    width: 100%;
+    padding: 2rem 0.5rem;
+  }
+
+  .contactLeft div {
+    margin: 0.5rem 0.5rem;
+    padding: 0;
+
+  }
+}
