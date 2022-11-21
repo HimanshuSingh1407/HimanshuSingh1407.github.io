@@ -1,16 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1a9815e5.js",
+    "main.css": "/static/css/main.5bf03246.css",
+    "main.js": "/static/js/main.db59849d.js",
     "static/js/787.5727570d.chunk.js": "/static/js/787.5727570d.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Screenshot123.png": "/static/media/Screenshot123.a030b8f74b1b4c8d4f64.png",
+    "static/media/Screenshot136.png": "/static/media/Screenshot136.68721d7089192bcc99c6.png",
+    "static/media/Screenshot137.png": "/static/media/Screenshot137.4a87efceda1dce2ab38a.png",
+    "static/media/Screenshot122.png": "/static/media/Screenshot122.33472238050731ecc4c8.png",
+    "static/media/Screenshot121.png": "/static/media/Screenshot121.ea0b1b91ed0a9bdcc256.png",
+    "static/media/bgTwo.jpg": "/static/media/bgTwo.6d5600a8b9bd62d061e8.jpg",
+    "static/media/ss.png": "/static/media/ss.278721b3c6df61f584cc.png",
+    "static/media/chakra.png": "/static/media/chakra.15320604467d004df871.png",
+    "static/media/sff.JPG": "/static/media/sff.d3d816cc2728ce29f3a2.JPG",
+    "static/media/redux.svg": "/static/media/redux.7fe607aacc31f6e6199e70f16aae407e.svg",
+    "static/media/git.svg": "/static/media/git.c08353563539c6459b353f29d8dd7bf2.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1a9815e5.js.map": "/static/js/main.1a9815e5.js.map",
+    "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
+    "main.5bf03246.css.map": "/static/css/main.5bf03246.css.map",
+    "main.db59849d.js.map": "/static/js/main.db59849d.js.map",
     "787.5727570d.chunk.js.map": "/static/js/787.5727570d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.1a9815e5.js"
+    "static/css/main.5bf03246.css",
+    "static/js/main.db59849d.js"
   ]
 }
