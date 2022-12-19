@@ -51,6 +51,7 @@
   border-radius: 0.25rem;
   background-color: transparent;
   transition: all 1s ease-in-out;
+  cursor: pointer;
 }
 .leftContainer button:hover {
   background-color: #fff;
@@ -73,7 +74,7 @@
 @media all and (max-width: 800px) {
   .containerHome {
     flex-direction: column;
-    height: 120vh;
+    height: 140vh;
   }
 
   .leftContainer,

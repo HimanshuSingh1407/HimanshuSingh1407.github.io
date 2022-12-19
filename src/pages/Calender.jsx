@@ -21,7 +21,7 @@ const Calender = () => {
   };
   return (
     <div>
-      <h1
+      {/* <h1
         style={{
           color: "#153462",
           margin: "auto",
@@ -32,19 +32,24 @@ const Calender = () => {
         }}
       >
         GitHub Calender
-      </h1>
+      </h1> */}
       <GitHubCalendar
         style={{
           margin: "auto",
           marginBottom: "50px",
           boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-          padding: "2rem",
+          padding: "1rem",
           borderRadius: "1rem",
+          // border: "1px solid red",
+          '@media (max-width: 800px)':{
+            fontSize:"small",
+          }
         }}
+        
         username="HimanshuSingh1407"
         transformData={selectLastHalfYear}
-        blockSize={20}
-        fontSize={20}
+        blockSize={15}
+        fontSize={15}
       >
         <ReactTooltip delayShow={20} html />
       </GitHubCalendar>

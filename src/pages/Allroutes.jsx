@@ -16,7 +16,6 @@ const Allroutes = () => {
       <Project />
       <TechStack />
       <GithubAnalysis />
-      <Calender />
       <Contact />
     </>
   );

@@ -37,12 +37,12 @@ const projectArr = [
   },
   {
     img: `${Screenshot122}`,
-    name: "portfolio ",
+    name: "fatsecret ",
     productType: "personal live project",
     techStack: "react.js, redux, node.js , mongoDB, express ",
-    description: "this is the live project",
-    link: "",
-    git: "https://github.com/vaibhavj143/Portfolio_Forntend",
+    description: "FatSecret is a MHealth app for self-monitoring food, physical activity and weight.",
+    link: "https://fatsecret-india-project-lousy-rabbit-6500-k4rb5xi6z.vercel.app/",
+    git: "https://github.com/HimanshuSingh1407/fatsecret-india_project_lousy-rabbit-6500",
   },
 ];
 

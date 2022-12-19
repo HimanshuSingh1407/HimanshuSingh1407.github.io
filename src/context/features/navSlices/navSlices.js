@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit'
   name: 'navShift',
   initialState: {
       home:0,
-    about :0,
+    about :25,
     skill:0,
     project:0,
     contact:0

@@ -16,7 +16,7 @@ const Project = () => {
 const dispatch = useDispatch();
 
   useEffect(() => {    
-    dispatch(setValProject(refNav.current.offsetTop - 100));
+    dispatch(setValProject(refNav.current.offsetTop ));
   }, [dispatch])
 
   return (

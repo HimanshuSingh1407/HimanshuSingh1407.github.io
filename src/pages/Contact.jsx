@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    dispatch(setValContact(refNav.current.offsetTop - 100));
+    dispatch(setValContact(refNav.current.offsetTop ));
   }, [dispatch]);
 
   return (

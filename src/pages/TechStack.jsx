@@ -18,7 +18,7 @@ const refNav = useRef();
 const dispatch = useDispatch();
 
   useEffect(() => {    
-    dispatch(setValSkill(refNav.current.offsetTop - 100));
+    dispatch(setValSkill(refNav.current.offsetTop ));
   },[dispatch])
 
   return (
