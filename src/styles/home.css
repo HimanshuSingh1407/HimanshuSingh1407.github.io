@@ -5,6 +5,7 @@
   width: 100%;
   height: 98vh;
   /* padding: 0.2rem; */
+  border: 1px solid red;
 
   display: flex;
   align-items: flex-end;
@@ -74,7 +75,7 @@
 @media all and (max-width: 800px) {
   .containerHome {
     flex-direction: column;
-    height: 140vh;
+    height: 80vh;
   }
 
   .leftContainer,

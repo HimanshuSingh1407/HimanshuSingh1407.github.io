@@ -21,3 +21,9 @@
 
 }
 
+@media all and (max-width: 800px){
+    .headingContainer{
+        margin-bottom: -20px;
+    }
+}
+
