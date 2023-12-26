@@ -49,24 +49,24 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    dispatch(setValContact(refNav.current.offsetTop +50));
+    dispatch(setValContact(refNav.current.offsetTop +80));
   }, [dispatch]);
 
   return (
     <>
       <Heading heading={`Contact`} subHeading={`get in touch`} />
 
-      <div ref={refNav} className="contactContainer">
+      <div ref={refNav} className="contactContainer" id="contact">
         <address className="contactLeft">
           <div>
             <span>
               {" "}
-              <a href="tel:+918764140115">Mobile - 7905181521</a>{" "}
+              <a id="contact-phone" href="tel:+918764140115">Mobile - 7905181521</a>{" "}
             </span>
           </div>
           <div>
             <span>
-              <a href="mailto:singh.himanshu1407@gmail.com">
+              <a id="contact-email" href="mailto:singh.himanshu1407@gmail.com">
                 Email - singh.himanshu1407@gmail.com{" "}
               </a>
             </span>
@@ -89,6 +89,7 @@ const Contact = () => {
                 href="https://www.linkedin.com/in/himanshu-singh-8aba59146/"
                 target="_blank"
                 rel="noreferrer"
+                id="contact-linkedin"
               >
                 {" "}
                 <BsLinkedin />{" "}
@@ -97,6 +98,7 @@ const Contact = () => {
                 href="https://github.com/HimanshuSingh1407"
                 target="_blank"
                 rel="noreferrer"
+                id="contact-github"
               >
                 {" "}
                 <BsGithub />{" "}

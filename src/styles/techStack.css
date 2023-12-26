@@ -10,7 +10,7 @@
   /* border: 1px solid red; */
 }
 
-.techStackContainer .cardTech {
+.techStackContainer .skills-card {
   /* max-width: 180px;
   min-width: 100px; */
   width: 160px;
@@ -25,13 +25,13 @@
   align-items: center;
   justify-content: center;
 }
-.techStackContainer .cardTech img {
+.techStackContainer .skills-card img {
   width: 80%;
   text-align: center;
   /* border: 1px solid black; */
 }
 
-.techStackContainer .cardTech h3 {
+.techStackContainer .skills-card h3 {
     font-size: 0.8rem;
   }
 

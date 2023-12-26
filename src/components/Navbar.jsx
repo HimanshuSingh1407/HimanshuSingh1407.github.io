@@ -102,7 +102,7 @@ const Navbar = () => {
   }, [windowSize, offSet]);
 
   return (
-    <>
+    <div id="nav-menu">
       <nav
         style={{ backgroundColor: `${navColor}` }}
         ref={ref}
@@ -135,6 +135,7 @@ const Navbar = () => {
                     window.scrollTo({ top: pageState.home, behavior: "smooth" })
                   }
                   className="maindiv"
+                  // className="nav-link home"
                 >
                   {" "}
                   <span>Home</span>
@@ -147,6 +148,7 @@ const Navbar = () => {
                     })
                   }
                   className="maindiv"
+                  // className="nav-link about"
                 >
                   {" "}
                   <span>About</span>
@@ -159,6 +161,7 @@ const Navbar = () => {
                     })
                   }
                   className="maindiv"
+                  // className="nav-link projects"
                 >
                   Project
                 </div>
@@ -170,6 +173,7 @@ const Navbar = () => {
                     })
                   }
                   className="maindiv"
+                  // className="nav-link skills"
                 >
                   Technology
                 </div>
@@ -181,10 +185,16 @@ const Navbar = () => {
                     })
                   }
                   className="maindiv"
+                  // className="nav-link contact"
                 >
                   Contact
                 </div>
-                <div onClick={() => onButtonClick()} className="maindiv">
+                <div
+                  onClick={() => onButtonClick()}
+                  className="maindiv"
+                  // className="nav-link resume"
+                  id="resume-button-1"
+                >
                   {" "}
                   <span>Resume</span>
                 </div>
@@ -250,7 +260,7 @@ const Navbar = () => {
       <button ref={upBtn} id="upBtn" onClick={handleUpBtn}>
         <BsArrowUp />
       </button>
-    </>
+    </div>
   );
 };
 

@@ -10,7 +10,7 @@
   gap: 1rem;
   /* border: 1px solid red ; */
 }
-.projectCard {
+.project-card {
   min-width: 300px;
   /* border: 1px solid red ; */
   max-width: 550px;
@@ -22,12 +22,12 @@
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 0.5rem;
 }
-.projectCard img {
+.project-card img {
   width: 100%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-.projectCard > div {
+.project-card > div {
   margin: 0.25rem 0.5rem;
   display: flex;
 
@@ -38,7 +38,7 @@
   /* border: 2px solid red ; */
   flex-wrap: wrap;
 }
-.projectCard div .hashTag {
+.project-card div .hashTag {
   /* border: 2px solid yellow ; */
 
   background-color: #153462;
@@ -50,7 +50,7 @@
   color: white;
   font-family: cursive;
 }
-.projectCard h2 {
+.project-card h2 {
   color: #153462;
   padding: 0.25rem;
   text-transform: capitalize;
@@ -59,11 +59,11 @@
   border: 2px solid transparent;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.projectCard h2:hover {
+.project-card h2:hover {
   border: 2px solid #153462;
   width: max-content;
 }
-.projectCard p {
+.project-card p {
   padding: 0.25rem;
   text-transform: capitalize;
   margin: 0 0.5rem;
@@ -71,7 +71,7 @@
   font-family: monospace;
   margin-bottom: 0.75rem;
 }
-.projectCard div:last-child a {
+.project-card div:last-child a {
   padding: 0.25rem;
   text-decoration: none;
   color: white;
@@ -87,28 +87,28 @@
   .projectContainer {
     grid-template-columns: repeat(1, 1fr);
   }
-  .projectCard {
+  .project-card {
     height: 490px;
     gap: 0;
     margin: 0;
     /* margin-top: -5px; */
   }
-  .projectCard p {
+  .project-card p {
     line-height: 0.9rem;
     margin-bottom: -5px;
   }
-  .projectCard div:last-child a {
+  .project-card div:last-child a {
     padding: 0;
     margin-bottom: 0;
     /* border: 2px solid #153462; */
   }
 
-  .projectCard img {
+  .project-card img {
     width: 100%;
     height: 8rem;
   }
 
-  .projectCard h2 {
+  .project-card h2 {
     padding: 0rem;
     margin-top: -5px;
     font-size: 100%;

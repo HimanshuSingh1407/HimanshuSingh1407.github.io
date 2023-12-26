@@ -22,19 +22,18 @@ const dispatch = useDispatch();
   },[dispatch])
 
   return (
-    <>
+    <div  id="skills">
       <Heading heading={`Skill`} subHeading={`what i know`} />
 
       <div  ref={refNav} className="techStackContainer">
         {techStackArr.map((el, ind) => {
           return (
             <motion.div
-              className="cardTech"
+              className="skills-card"
               key={ind}
               whileHover={{
                 scale: [1, 1.2, 1.2, 1, 1],
                 borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-
                 transition: {
                   duration: 2,
                   ease: "easeInOut",
@@ -45,13 +44,13 @@ const dispatch = useDispatch();
                 
               }}
             >
-              <motion.img src={el.img} alt="" />
-              <motion.h3>{el.name} </motion.h3>
+              <motion.img className="skills-card-img" src={el.img} alt="" />
+              <motion.h3 className="skills-card-name">{el.name} </motion.h3>
             </motion.div>
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
 

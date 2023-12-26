@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
  const navbarSlice = createSlice({
   name: 'navShift',
   initialState: {
-      home:0,
+    home:0,
     about :25,
     skill:0,
     project:0,

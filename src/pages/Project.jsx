@@ -16,31 +16,31 @@ const Project = () => {
 const dispatch = useDispatch();
 
   useEffect(() => {    
-    dispatch(setValProject(refNav.current.offsetTop ));
+    dispatch(setValProject(refNav.current.offsetTop-30 ));
   }, [dispatch])
 
   return (
     <>
     <Heading  heading={`Project`}  subHeading={`my work`} />
 
-    <div ref={refNav} className='projectContainer'  >
+    <div ref={refNav} className='projectContainer' id="projects" >
 
       {
         projectArr.map((el,ind)=>{
 
-          return <div className="projectCard" key={ind+1} >
+          return <div className="project-card" key={ind+1} >
 
               <img src={el.img} alt="" />
 
-              <div> {el.techStack.split(",").map((ele,index)=> <div className='hashTag' >#{ele}</div> )}  </div>
+              <div className="project-tech-stack"> {el.techStack.split(",").map((ele,index)=> <div className='hashTag' >#{ele}</div> )}  </div>
 
-              <h2> {el.name}</h2>
+              <h2 className="project-title"> {el.name}</h2>
 
-              <p>{el.description}</p>
+              <p className="project-description">{el.description}</p>
 
               <div> 
-                 <a href={`${el.link}`} target="_blank"  >Deploy</a> 
-                 <a href={`${el.git}`}  target="_blank" >Git-Hub</a> 
+                 <a className="project-deployed-link" href={`${el.link}`} target="_blank"  >Deploy</a> 
+                 <a className="project-github-link" href={`${el.git}`}  target="_blank" >Git-Hub</a> 
                </div>
 
           </div>

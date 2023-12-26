@@ -14,15 +14,14 @@ const About = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(setValAbout(refNav.current.offsetTop -100 ));
+    dispatch(setValAbout(refNav.current.offsetTop - 100));
   }, [dispatch]);
 
   return (
-    <>
+    <div id="about" class="about section">
       <Heading heading={`About`} subHeading={`a bit about me`} />
-
       <div ref={refNav} className="aboutContainer">
-        <div className="leftContainer">
+        <div className="leftContainer" id="user-detail-intro">
           <p className="writeAboutMe">
             I'm a passionate Developer, with strong administrative and
             communication skills, good attention to detail and the ability to
@@ -34,7 +33,7 @@ const About = () => {
           <img src={ss} alt="img" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

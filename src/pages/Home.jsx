@@ -62,19 +62,19 @@ const Home = () => {
 
   return (
     <>
-      <div ref={refNav} className="containerHome">
-        <div className="leftContainer">
-          <h3>Hello, I am</h3>
+      <div ref={refNav} className="containerHome" id="home">
+        <div className="leftContainer" id="user-detail-name">
+          <h3 id="name">Hello, I am</h3>
           <h1>Himanshu Singh</h1>
           <h3>
             And I am a <span>{titleArr[num]}</span>
           </h3>
 
-          <button onClick={onButtonClick}>Resume</button>
+          <button id="resume-button-2" onClick={onButtonClick}>Resume</button>
         </div>
         <div className="rightContainer">
           <div>
-            <img src={profileImg} alt="" />
+            <img className="home-img" src={profileImg} alt="" />
           </div>
         </div>
       </div>

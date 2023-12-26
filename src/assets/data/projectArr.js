@@ -37,12 +37,12 @@ const projectArr = [
   },
   {
     img: `${Screenshot122}`,
-    name: "fatsecret ",
-    productType: "personal live project",
-    techStack: "react.js, redux, node.js , mongoDB, express ",
-    description: "FatSecret is a MHealth app for self-monitoring food, physical activity and weight.",
-    link: "https://fatsecret-india-project-lousy-rabbit-6500-k4rb5xi6z.vercel.app/",
-    git: "https://github.com/HimanshuSingh1407/fatsecret-india_project_lousy-rabbit-6500",
+    name: "Smart-Point ",
+    productType: "e-commerce web app",
+    techStack: "react.js, redux, node.js, mongoDB, express, chakra-UI ",
+    description: "This is a Clone of Yoox.com fashion products E-commerce website.",
+    link: "https://smart-point.vercel.app/",
+    git: "https://github.com/HimanshuSingh1407/yoox.com-clone",
   },
 ];
 
