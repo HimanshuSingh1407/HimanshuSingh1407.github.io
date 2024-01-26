@@ -8,7 +8,6 @@
   text-align: center;
   background-color: transparent;
   height: 90vh;
-
 }
 
 .contactContainer .contactLeft {
@@ -76,15 +75,14 @@
   margin: 0.5rem;
   width: 90%;
   display: flex;
+  gap: 0.5rem;
 }
 .contactRight .contactForm span input,
 textarea {
   outline: none;
   border: none;
 }
-.contactRight .contactForm  .submitBtn
- {
-
+.contactRight .contactForm .submitBtn {
   padding: 0.25rem 0.75rem;
   color: #153462;
   font-weight: 600;
@@ -92,31 +90,33 @@ textarea {
   border: 2px solid #153462;
   border-radius: 4px;
   transition: all 0.5s ease-in-out;
-
 }
 
-.contactRight .contactForm .submitBtn:hover{
-
+.contactRight .contactForm .submitBtn:hover {
   border: 2px solid #fff;
 }
-
 
 @media all and (max-width: 800px) {
   .contactContainer {
     flex-direction: column;
     font-size: small;
-    padding: 1rem;height: 120vh;
+    padding: 1rem;
+    height: 120vh;
+    /* border: 1px solid red; */
   }
 
   .contactContainer .contactLeft,
   .contactContainer .contactRight {
     width: 100%;
     padding: 2rem 0.5rem;
+    /* border: 1px solid black; */
   }
 
   .contactLeft div {
     margin: 0.5rem 0.5rem;
     padding: 0;
-
+    /* padding-left: 1rem; */
+    /* border: 1px solid green; */
   }
+  
 }

@@ -40,12 +40,10 @@ const Calender = () => {
           boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
           padding: "1rem",
           borderRadius: "1rem",
-          border: "1px solid red",
-          '@media (max-width: 800px)':{
-            fontSize:"small",
-          }
+          "@media (max-width: 800px)": {
+            fontSize: "small",
+          },
         }}
-        
         username="HimanshuSingh1407"
         transformData={selectLastHalfYear}
         blockSize={15}

@@ -22,7 +22,7 @@ const GithubAnalysis = () => {
           />
         </div>
         <div className="githubStatus">
-          <Calender />
+          {/* <Calender /> */}
         </div>
       </div>
     </>

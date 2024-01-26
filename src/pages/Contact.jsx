@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    dispatch(setValContact(refNav.current.offsetTop +80));
+    dispatch(setValContact(refNav.current.offsetTop + 80));
   }, [dispatch]);
 
   return (
@@ -61,7 +61,9 @@ const Contact = () => {
           <div>
             <span>
               {" "}
-              <a id="contact-phone" href="tel:+918764140115">Mobile - 7905181521</a>{" "}
+              <a id="contact-phone" href="tel:+918764140115">
+                Mobile - 7905181521
+              </a>{" "}
             </span>
           </div>
           <div>
